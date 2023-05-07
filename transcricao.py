@@ -89,7 +89,7 @@ if submit_rec:
                 st.markdown(f'#### Texto em {lingua}:')
                 st.markdown(f'#### {texto}')
                 st.caption(f'Tempo de transcrição: {time.time() - inicio:.2f} segundos')
-                st.download_button('Baixar', texto, f'{texto}.txt')
+                st.download_button('Baixar', texto, 'transcricao.txt')
         except Exception as e:
             st.error(f'Erro na transcrição. {e}')
     else:
