@@ -1,0 +1,16 @@
+altair==4.2.2
+ffmpeg==1.4
+numpy==1.24.3
+pandas==2.0.1
+pillow==9.5.0
+stqdm==0.0.5
+streamlit
+torch==2.0.0
+torchaudio==2.0.1
+torchvision==0.15.1
+tqdm==4.65.0
+watchdog==3.0.0
+openai-whisper
+streamlit-audiorecorder
+setuptools-rust
+yt-dlp
